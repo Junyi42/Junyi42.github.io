@@ -153,3 +153,135 @@ a:link {color:#0d4ca5;}
 a:visited {color:#0d4ca5;}
 a:hover {color:#f86df8;} 
 a:active {color:#0d4ca5;}
+
+/* improved layout with floating, absolute and relative positioning */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  }
+  
+  .logo {
+  float: left;
+  margin-left: 20px;
+  }
+  
+  .nav {
+  float: right;
+  margin-right: 20px;
+  }
+  
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  }
+  
+  nav li {
+  margin-left: 30px;
+  }
+  
+  /* typography styles for different elements */
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  }
+  
+  strong {
+  font-weight: 700;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  }
+  
+  h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+  
+  h2 {
+  font-size: 28px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  }
+  
+  h3 {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  }
+  
+  p {
+  margin: 0 0 15px 0;
+  }
+  
+  a {
+  color: #1772d0;
+  text-decoration: none;
+  }
+  
+  a:hover {
+  color: #f09228;
+  }
+
+  /* Body */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+/* Headings */
+heading {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(78, 60, 182, 0.548);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Profile Image Hover Effect */
+.hoverZoomLink:hover img {
+  transform: scale(1.1);
+}
+
+/* Name */
+name {
+  font-family: 'Georgia', serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* University */
+university {
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
