@@ -155,7 +155,7 @@ a:hover {color:#f86df8;}
 a:active {color:#0d4ca5;}
 
 /* improved layout with floating, absolute and relative positioning */
-header {
+  header {
   width: 100%;
   height: 80px;
   background-color: #fff;
@@ -255,14 +255,11 @@ body {
   background-color: #f2f2f2;
 }
 
-/* Headings */
-heading {
+/* Sub Headings */
+sub-heading {
   font-family: 'Arial', sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: rgba(78, 60, 182, 0.548);
-  margin-top: 30px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgba(78, 60, 182, 0.534);
 }
 
 /* Profile Image Hover Effect */
@@ -285,3 +282,146 @@ university {
   font-weight: bold;
   color: #333;
 }
+
+/* Style for publication images */
+.pub-image {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  margin: 0 auto;
+  display: block;
+}
+
+/* improved layout with floating, absolute and relative positioning */
+.profile-table {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  position: relative;
+}
+
+.profile-description {
+  width: 60%;
+  padding: 2.5%;
+  position: relative;
+}
+
+.profile-name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+.profile-bio {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.profile-apply {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.profile-links {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  }
+  
+  .profile-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #1772d0;
+  text-decoration: none;
+  }
+  
+  .profile-links a:hover {
+  color: #f09228;
+  }
+  
+
+  .prof-image {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  /* for education */
+  .section-table {
+    width: 100%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .content-table {
+    width: 100%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .section-heading {
+    padding: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(78, 60, 182, 0.548);
+    background-color: #e8e8e8;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+  }
+  
+  
+  .section-image {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  
+  .section-image img {
+    max-height: 80px;
+  }
+  
+  .section-content {
+    padding: 10px 20px;
+    vertical-align: middle;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .section-details {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .section-details .section-date {
+    font-style: italic;
+  }
+  
+
+  
