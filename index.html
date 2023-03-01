@@ -14,9 +14,22 @@
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
 </head>
 
+
 <body>
+  <header>
+    <div class="logo">
+      <a href="https://www.junyi42.com">My Website</a>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="https://www.junyi42.com">Home</a></li>
+        <li><a href="mailto:junyizhang@sjtu.edu.cn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
   <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:75px;">
     <tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
@@ -370,8 +383,19 @@
           </table>
         </td>
       </tr>
-
   </table>
+  <script>
+    window.addEventListener('scroll', function() {
+      const body = document.querySelector('body');
+      const header = document.querySelector('header');
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 10) {
+        header.classList.add('hidden-header');
+      } else {
+        header.classList.remove('hidden-header');
+      }
+    });
+  </script>
 </body>
 
 </html>
