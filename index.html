@@ -385,16 +385,18 @@
       </tr>
   </table>
   <script>
-    window.addEventListener('scroll', function() {
-      const body = document.querySelector('body');
-      const header = document.querySelector('header');
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 10) {
-        header.classList.add('hidden-header');
-      } else {
-        header.classList.remove('hidden-header');
-      }
-    });
+  // Get the header
+  var header = document.querySelector("header");
+
+  // When the user scrolls down 20px from the top of the document, hide the header
+  window.onscroll = function() {
+    if (window.pageYOffset > 20) {
+      header.style.transform = "translateY(-100%)";
+    } else {
+      header.style.transform = "translateY(0)";
+    }
+  }
+
   </script>
 </body>
 
