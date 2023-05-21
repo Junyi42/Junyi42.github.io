@@ -444,6 +444,11 @@ university {
     margin-bottom: 10px;
   }
   
+  .section-details strong {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
   .section-details .section-date {
     font-style: italic;
   }
