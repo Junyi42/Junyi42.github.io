@@ -328,6 +328,14 @@ university {
   position: relative;
 }
 
+.profile-news {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+
 .profile-description {
   width: 60%;
   padding: 2.5%;
